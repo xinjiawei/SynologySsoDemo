@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>群晖SSO登录测试</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="synosso-client-demo">
+<meta name="author" content="synology,nanmengong">
+<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="https://act.jiawei.xin:5004/webman/sso/synoSSO-1.0.0.js"></script>
+<script type="text/javascript" src="js/synosso-client.js"></script>
+</head>
+<body>
+<div class="container">
+	<div class="form-signin">
+		<h1 class="form-signin-heading">群晖SSO登录测试</h1>
+		<h2 class="form-signin-heading">将使用群晖账户登录</h2>
+		<button id="login-button">登录认证</button>
+		<div id="alt" style="display:none">
+			<div>
+				<span>欢迎登录</span>
+					<p>
+						你的id为
+					</p>
+					<span id="userid"></span>
+					<p>
+						你的账户名为
+					</p>
+					<span id="username"></span>
+			</div>
+			<button id="out-button">退出登录</button>
+		</div>
+	</div>
+</div>
+</body>
+</html>
